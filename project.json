@@ -1,0 +1,11 @@
+{
+    "id": "reflecs.math",
+    "type": "package",
+    "value": {
+        "author": "Roberto Flores, Sander Mertens",
+        "description": "Math utilities for vectors and matrices"
+    },
+    "lang.c": {
+        "lib": ["m"]
+    }
+}
