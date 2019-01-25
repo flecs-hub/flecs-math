@@ -7,5 +7,10 @@
     },
     "lang.c": {
         "lib": ["m"]
+    },
+    "dependee": {
+        "lang.c": {
+            "lib": ["m"]
+        }
     }
 }
