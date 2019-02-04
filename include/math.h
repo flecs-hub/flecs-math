@@ -11,6 +11,17 @@
 extern "C" {
 #endif
 
+REFLECS_MATH_EXPORT
+int ecs_clamp(
+    float *v, 
+    float min, 
+    float max);
+
+REFLECS_MATH_EXPORT
+float ecs_random_range(
+    float min,
+    float max);
+
 #ifdef __cplusplus
 }
 #endif
