@@ -1,5 +1,5 @@
-#ifndef REFLECS_VECTOR_H
-#define REFLECS_VECTOR_H
+#ifndef FLECS_VECTOR_H
+#define FLECS_VECTOR_H
 
 #ifdef __cplusplus
 extern "C" {

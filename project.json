@@ -1,5 +1,5 @@
 {
-    "id": "reflecs.math",
+    "id": "flecs.math",
     "type": "package",
     "value": {
         "author": "Roberto Flores, Sander Mertens",

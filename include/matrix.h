@@ -1,5 +1,5 @@
-#ifndef REFLECS_MATRIX_H
-#define REFLECS_MATRIX_H
+#ifndef FLECS_MATRIX_H
+#define FLECS_MATRIX_H
 
 #include <stdlib.h>
 
