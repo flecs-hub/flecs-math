@@ -41,6 +41,7 @@ typedef struct EcsVec4Int {
     int z;
 } EcsVec4Int;
 
+typedef EcsVec2 EcsPoint2D;
 
 /* -- 2D vectors -- */
 
