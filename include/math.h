@@ -22,6 +22,10 @@ float ecs_random_range(
     float min,
     float max);
 
+FLECS_MATH_EXPORT
+float ecs_randf(
+    float max);
+
 #ifdef __cplusplus
 }
 #endif

@@ -12,6 +12,10 @@ int ecs_clamp(
     return result;
 }
 
+float ecs_randf(float max) {
+    return (float)rand() / (float)RAND_MAX * max;
+}
+
 float ecs_random_range(
     float min,
     float max)
