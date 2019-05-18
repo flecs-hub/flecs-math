@@ -32,7 +32,7 @@
 
 /* Convenience macro for exporting symbols */
 #ifndef FLECS_MATH_STATIC
-  #if FLECS_MATH_IMPL && defined _MSC_VER
+  #if FLECS_MATH_IMPL && (defined(_MSC_VER) || defined(__MINGW32__))
     #define FLECS_MATH_EXPORT __declspec(dllexport)
   #elif FLECS_MATH_IMPL
     #define FLECS_MATH_EXPORT __attribute__((__visibility__("default")))

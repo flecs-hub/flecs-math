@@ -37,6 +37,11 @@ void ecs_mat3x3_transform_int(
     EcsVec2Int *dest,
     size_t size);
 
+void ecs_mat3x3_mul(
+    EcsMat3x3 *m1,
+    EcsMat3x3 *m2,
+    EcsMat3x3 *dest);
+
 #ifdef __cplusplus
 }
 #endif
