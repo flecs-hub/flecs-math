@@ -45,71 +45,88 @@ typedef EcsVec2 EcsPoint2D;
 
 /* -- 2D vectors -- */
 
+FLECS_MATH_EXPORT
 void ecs_vec2_set(
     EcsVec2 *vector,
     float x,
     float y);
 
+FLECS_MATH_EXPORT
 void ecs_vec2_mult(
     EcsVec2 *vector,
     float m,
     EcsVec2 *vector_out);
 
+FLECS_MATH_EXPORT
 void ecs_vec2_div(
     EcsVec2 *vector,
     float m, EcsVec2 *vector_out);
 
+FLECS_MATH_EXPORT
 void ecs_vec2_add(
     EcsVec2 *vector_a,
     EcsVec2 *vector_b,
     EcsVec2 *vector_out);
 
+FLECS_MATH_EXPORT
 void ecs_vec2_sub(
     EcsVec2 *vector_a,
     EcsVec2 *vector_b,
     EcsVec2 *vector_out);
 
+FLECS_MATH_EXPORT
 void ecs_vec2_scale(EcsVec2 *vector_a, EcsVec2 *vector_b,
     EcsVec2 *vector_out);
 
+FLECS_MATH_EXPORT
 void ecs_vec2_normalize(
     EcsVec2 *vector,
     EcsVec2 *vector_out);
 
+FLECS_MATH_EXPORT
 void ecs_vec2_perpendicular(
     EcsVec2 *vector,
     EcsVec2 *vector_out);
 
+FLECS_MATH_EXPORT
 void ecs_vec2_reflect(
     EcsVec2 *vector_a,
     EcsVec2 *vector_b,
     EcsVec2 *vector_out);
 
+FLECS_MATH_EXPORT
 float ecs_vec2_cross(
     EcsVec2 *vector_a,
     EcsVec2 *vector_b);
 
+FLECS_MATH_EXPORT
 float ecs_vec2_dot(
     EcsVec2 *vector_a,
     EcsVec2 *vector_b);
 
+FLECS_MATH_EXPORT
 float ecs_vec2_magnitude(
     EcsVec2 *vector);
 
+FLECS_MATH_EXPORT
 float ecs_vec2_magnitudeSqrt(
     EcsVec2 *vector);
 
+FLECS_MATH_EXPORT
 float ecs_vec2_angle(
     EcsVec2 *vector);
 
+FLECS_MATH_EXPORT
 float ecs_vec2_angle2(
     EcsVec2 *vector_a,
     EcsVec2 *vector_b);
 
+FLECS_MATH_EXPORT
 float ecs_vec2_distance(
     EcsVec2 *vector_a,
     EcsVec2 *vector_b);
 
+FLECS_MATH_EXPORT
 float ecs_vec2_distanceSqrt(
     EcsVec2 *vector_a,
     EcsVec2 *vector_b);
@@ -117,73 +134,89 @@ float ecs_vec2_distanceSqrt(
 
 /* -- 3D vectors -- */
 
+FLECS_MATH_EXPORT
 void ecs_vec3_set(
     EcsVec3 *vector,
     float x,
     float y,
     float z);
 
+FLECS_MATH_EXPORT
 void ecs_vec3_mult(
     EcsVec3 *vector,
     float m,
     EcsVec3 *vector_out);
 
+FLECS_MATH_EXPORT
 void ecs_vec3_div(
     EcsVec3 *vector,
     float m,
     EcsVec3 *vector_out);
 
+FLECS_MATH_EXPORT
 void ecs_vec3_add(
     EcsVec3 *vector_a,
     EcsVec3 *vector_b,
     EcsVec3 *vector_out);
 
+FLECS_MATH_EXPORT
 void ecs_vec3_sub(
     EcsVec3 *vector_a,
     EcsVec3 *vector_b,
     EcsVec3 *vector_out);
 
+FLECS_MATH_EXPORT
 void ecs_vec3_scale(
     EcsVec3 *vector_a,
     EcsVec3 *vector_b,
     EcsVec3 *vector_out);
 
+FLECS_MATH_EXPORT
 void ecs_vec3_normalize(
     EcsVec3 *vector,
     EcsVec3 *vector_out);
 
+FLECS_MATH_EXPORT
 void ecs_vec3_perpendicular(
     EcsVec3 *vector,
     EcsVec3 *vector_out);
 
+FLECS_MATH_EXPORT
 void ecs_vec3_reflect(
     EcsVec3 *vector_a,
     EcsVec3 *vector_b,
     EcsVec3 *vector_out);
 
+FLECS_MATH_EXPORT
 void ecs_vec3_cross(
     EcsVec3 *vector_a,
     EcsVec3 *vector_b,
     EcsVec3 *vector_out);
 
+FLECS_MATH_EXPORT
 float ecs_vec3_dot(
     EcsVec3 *vector_a,
     EcsVec3 *vector_b);
 
+FLECS_MATH_EXPORT
 float ecs_vec3_magnitude(
     EcsVec3 *vector);
 
+FLECS_MATH_EXPORT
 float ecs_vec3_magnitudeSqrt(
     EcsVec3 *vector);
 
+FLECS_MATH_EXPORT
 float ecs_vec3_angle(
     EcsVec3 *vector_a,
     EcsVec3 *vector_b);
 
+FLECS_MATH_EXPORT
 float ecs_vec3_distance(
     EcsVec3 *vector_a,
     EcsVec3 *vector_b);
 
+FLECS_MATH_EXPORT
 float ecs_vec3_distanceSqrt(
     EcsVec3 *vector_a,
     EcsVec3 *vector_b);

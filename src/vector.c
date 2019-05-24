@@ -1,3 +1,7 @@
+#ifndef _USE_MATH_DEFINES
+#define _USE_MATH_DEFINES
+#endif
+
 #include "include/math.h"
 #include <string.h>
 #include <math.h>
