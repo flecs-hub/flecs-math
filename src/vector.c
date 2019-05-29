@@ -1,4 +1,9 @@
 #include <flecs_math.h>
+
+#ifndef _USE_MATH_DEFINES
+#define _USE_MATH_DEFINES
+#endif
+
 #include <string.h>
 #include <math.h>
 
