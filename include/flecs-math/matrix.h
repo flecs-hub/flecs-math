@@ -17,9 +17,19 @@ void ecs_mat3x3_add_rotation(
     EcsMat3x3 *matrix,
     float rad);
 
+void ecs_mat3x3_addn_rotation(
+    EcsMat3x3 *matrix,
+    float *rad,
+    int count);
+
 void ecs_mat3x3_add_translation(
     EcsMat3x3 *matrix,
     EcsVec2 *translation);
+
+void ecs_mat3x3_addn_translation(
+    EcsMat3x3 *matrix,
+    EcsVec2 *translation,
+    int count);
 
 void ecs_mat3x3_add_scale(
     EcsMat3x3 *matrix,

@@ -1,4 +1,4 @@
-#include <include/math.h>
+#include <flecs_math.h>
 
 int ecs_clamp(
     float *v, 

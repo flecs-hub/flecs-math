@@ -1,4 +1,4 @@
-#include "include/math.h"
+#include <flecs_math.h>
 #include <string.h>
 #include <math.h>
 

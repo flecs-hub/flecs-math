@@ -2,10 +2,10 @@
 #define FLECS_MATH_H
 
 /* This generated file contains includes for project dependencies */
-#include "bake_config.h"
+#include "flecs-math/bake_config.h"
 
-#include "vector.h"
-#include "matrix.h"
+#include "flecs-math/vector.h"
+#include "flecs-math/matrix.h"
 
 #ifdef __cplusplus
 extern "C" {
